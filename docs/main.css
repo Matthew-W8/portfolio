@@ -1,6 +1,6 @@
 body {
     background: #ababb0;
-    color: #6e695d;
+    color: #e6ecf0;
     font-family: "Trebuchet MS";
 }
 
@@ -27,4 +27,10 @@ a.nav:hover {
 
 a.nav:active {
     color: #9797f7;
+}
+h1.resume {
+    text-align: center;
+}
+p.p-info {
+    text-align: center;
 }
