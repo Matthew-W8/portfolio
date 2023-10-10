@@ -1,11 +1,30 @@
 body {
-    background: #aaa9c4;
+    background: #ababb0;
     color: #6e695d;
     font-family: "Trebuchet MS";
 }
 
 nav {
     background: #11099c;
+    height: 28px;
+    text-align: center;
     font-family: "Trebuchet MS";
+    color: #fafafc;
+    font-size: 20px;
 }
 
+a.nav:link {
+    color: #e6e6f0;
+}
+
+a.nav:visited {
+    color: #ababb0;
+}
+
+a.nav:hover {
+    color: #fafafc;
+}
+
+a.nav:active {
+    color: #9797f7;
+}
