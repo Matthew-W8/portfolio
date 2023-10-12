@@ -2,6 +2,7 @@ body {
     background: #ababb0;
     color: #e6ecf0;
     font-family: "Trebuchet MS";
+    padding: 20px;
 }
 
 nav {
@@ -28,9 +29,42 @@ a.nav:hover {
 a.nav:active {
     color: #9797f7;
 }
+
+div.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+div.child1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+div.child2 {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+.resume-box {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+h2.resume-box {
+    padding-left: 1em;
+}
+
 h1.resume {
     text-align: center;
 }
+
+p {
+    padding-left: 20px;
+}
+
 p.p-info {
     text-align: center;
 }
