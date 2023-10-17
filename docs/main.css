@@ -50,7 +50,7 @@ img.gallery {
     margin: auto;
 }
 
-figcaption {
+figcaption.gallery {
     text-align: center;
 }
 
