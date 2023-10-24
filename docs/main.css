@@ -96,3 +96,13 @@ p {
 p.p-info {
     text-align: center;
 }
+
+h1.reflection {
+   text-align: center;
+}
+
+p.reflection {
+    font-size: 18px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
