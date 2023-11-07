@@ -106,3 +106,10 @@ p.reflection {
     margin-left: 8%;
     margin-right: 8%;
 }
+
+figure.comparison {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
