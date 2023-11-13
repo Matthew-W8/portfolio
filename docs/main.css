@@ -5,6 +5,14 @@ body {
     padding: 20px;
 }
 
+body.center {
+    background: #ababb0;
+    color: #e6ecf0;
+    font-family: "Trebuchet MS", sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
 nav {
     background: #11099c;
     height: 28px;

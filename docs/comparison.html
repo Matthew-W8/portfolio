@@ -8,20 +8,85 @@
         <link rel="stylesheet" href="main.css" />
         
     </head>
-    <body>
+    <body class="center">
         <nav>
             <p><a class="nav" href="index.html">Homepage</a> | <a class="nav" href="gallery.html"
                 >Gallery</a> | <a class="nav" href="resume.html">Resume</a> | <a class="nav" href="report.html">Reflection</a> | <a class="nav" href="comparison.html">Text Comparison</a></p>
         </nav>
-        <h1 style="text-align: center">Comparison of 19th Century fiction and 19th Century Innagural Addresses</h1>
-        <figure class="comparison">
-            <img src="images/fiction-negative-words.png"/>
-            <figcaption>N-Grams of 19th century fiction using negative words like "don't"</figcaption>
-        </figure>
-        <p>In my research, it seems that the 19th century fiction uses more negative words like "don't" or "couldn't" while the addresses use postive words like "will" and "may be". I think their is something to compare here between the negativity in the fiction and the postivity in the addresses which may reveal something about the time period.</p>
-        <figure class="comparison">
-            <img src="images/addresses-postive-words.png"/>
-            <figcaption>N-Grams from 19th century Presidential innagrual addresses using words like "will" and "may be" to suggest a propersous future.</figcaption>
-        </figure>
+        <h1 style="text-align: center">Comparison of 1815-1850 fiction and Inagural Addresses</h1>
+        <p>I chose to compare fiction from the years 1815 to 1850 and the inaugural addresses from the corresponding years. In my research
+        I came across interesting comparisons between the two. Fiction from the time period uses more negative words to suggest a hard time whereas
+        the inaugural addresses use more positive words to suggest times of prosperity and change.</p>
+        <p>The first thing I noticed was that the fiction data set contained a lot more negative words such as "don't" or "can't" whereas the inaugural
+        addresses contain more positive words such as "will be" and "it is".</p>
+        <section class="flex">
+            <figure>
+                <img src="images/addresses-postive-words.png"/>
+                <figcaption class="gallery">Ngrams showing the usage of the positive words in the inaugural addresses data set. </figcaption>
+            </figure>
+            <figure>
+                <img src="images/fiction-highest-three-grams.png"/>
+                <figcaption class="gallery">Three grams showing the usage of negative words in the fiction
+                    data set.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/fiction-highest-three-grams.png"/>
+                <figcaption class="gallery">Four grams showing the usage of more negative words in the fiction
+                    data set.</figcaption>
+            </figure>
+        </section>
+        <p>This would leave me to believe that the Presidents are speaking about how their time as President will be a positive impact on the
+            country while the fiction is reflecting a time of hardship. Even though it is a fiction set, fiction often still reflects the world of
+            the time.</p>
+        <p>Interestingly, "The United States" appears in both data sets, albeit it appears far more in the government data set, but I think it still says
+        something that it still appears in the data set at all. "The President" is also mentioned in the fiction data set as well.</p>
+        <section class="flex">
+            <figure>
+                <img src="images/addresses-highest-three-grams.png"/>
+                <figcaption class="gallery">Ngrams showing the usage of the United States and other government related words in the 
+                    inaugural addresses data set. </figcaption>
+            </figure>
+            <figure>
+                <img src="images/fiction-mentions-of-USA.png"/>
+                <figcaption class="gallery">Ngrams showing the usage of the United States and other government related words in the fiction
+                data set.</figcaption>
+            </figure>
+        </section>
+        <p>As mention before the fiction pieces are likely reflecting how people felt about the time period. This is proven when we view the 
+        "The United States" ngrams in keyword in context. Viewing "The President" from the fiction data set also helps to prove this</p>
+            <figure>
+                <img src="images/addresses-USA-keyword.png"/>
+                <figcaption class="gallery">The United States ngrams in keyword in context view of the inaugural addresses data set.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/fiction-USA-keyword.png"/>
+                <figcaption class="gallery">The United States ngrams in keyword in context view of the fiction data set.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/fiction-president-keyword.png"/>
+                <figcaption class="gallery">The President ngrams in keyword in context view of the fiction data set.</figcaption>
+            </figure>
+        <p>"The United States" is followed by negative words in the fiction data set such as "but" or is followed by past tense words suggesting something could have been done different
+        like "was" and "were", but in the addresses data set it is followed by "to" or "has" to suggest a better time to come. "The President" is also mentioned
+        in the fiction data set but the following words does not reveal much about the President of the time. Most of the words suggest they were just
+        doing their job, however in one keyword in context he is called a "cherished friend".</p>
+        <p>Lastly, when the highest negative ngrams from the fiction data set are searched for, we can see that see that they are not mentioned at
+        all in the inaugural addresses data set. This leads me to believe that during the addresses the Presidents are refraining from using negative words
+        during their speeches to either focus on how they can improve the country or to try and lessen their association to negative words.</p>
+        <section class="flex">
+            <figure>
+                <img src="images/addresses-cant-doesnt-exist.png"/>
+                <figcaption class="gallery">Ngrams showing the lack of usage of "can't" in the 
+                    inaugural addresses data set. </figcaption>
+            </figure>
+            <figure>
+                <img src="images/addresses-dont-doesnt-exist.png"/>
+                <figcaption class="gallery">Ngrams showing the lack of usage of "don't" in the 
+                    inaugural addresses data set. </figcaption>
+            </figure>
+        </section>
+        <p>The different ngrams and KWIC views would leave me to believe that the early 19th century was a time of hardship in the United States. The
+        Presidents were attempting to improve the country, but, as the fiction data set would suggest, it wasn't helping. However, from the keyword in context view of "The President"
+        it would suggest that they still had the support of the people.</p>
     </body>
-</html>
+        </html>
