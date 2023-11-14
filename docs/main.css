@@ -1,16 +1,8 @@
 body {
-    background: #ababb0;
+    background: #3b3a3a;
     color: #e6ecf0;
     font-family: "Trebuchet MS", sans-serif;
     padding: 20px;
-}
-
-body.center {
-    background: #ababb0;
-    color: #e6ecf0;
-    font-family: "Trebuchet MS", sans-serif;
-    padding: 20px;
-    text-align: center;
 }
 
 nav {
@@ -22,19 +14,19 @@ nav {
     font-size: 20px;
 }
 
-a.nav:link {
+a:link {
     color: #e6e6f0;
 }
 
-a.nav:visited {
+a:visited {
     color: #ababb0;
 }
 
-a.nav:hover {
+a:hover {
     color: #fafafc;
 }
 
-a.nav:active {
+a:active {
     color: #9797f7;
 }
 
@@ -75,7 +67,7 @@ div.parent {
 div.child1 {
     width: 100%;
     height: 100%;
-    background-color: #ababb0;
+    background-color: #3b3a3a;
 }
 
 div.child2 {
@@ -119,5 +111,13 @@ figure.comparison {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%
+}
+
+figure.comp {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     width: 50%
 }
