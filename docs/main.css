@@ -121,3 +121,7 @@ figure.comp {
     display: block;
     width: 50%
 }
+
+.centerized {
+    margin: auto;
+}
