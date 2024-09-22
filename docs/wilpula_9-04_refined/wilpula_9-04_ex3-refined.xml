@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="wilpula_9-04.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <!--Synthesize Her - TWRP-->
+    <!--Released May 17th, 2018-->
+    <stanza type="verse" num="1">
+        <metaData>[Verse 1]</metaData>
+        <line>So many nights and days alone</line>
+        <line>In this vessel on a search for a new home</line>
+        <line>So many hours to design</line>
+        <line>The girl of my dreams on this screen, now it's time</line>
+    </stanza>
+
+    <stanza type="pre-chorus" num="2">
+        <metaData>[Pre-Chorus]</metaData>
+        <line>Waveform select</line>
+        <line>Loading</line>
+        <line>Parameters set</line>
+        <line>Loading</line>
+    </stanza>
+
+    <stanza type="chorus" num="3">
+        <metaData>[Chorus]</metaData>
+        <line>Synthesize her</line>
+        <line>Synthesize her</line>
+        <line>Synthesize her</line>
+        <line>Synthesize her</line>
+    </stanza>
+
+    <stanza type="post-chorus" num="4">
+        <metaData>[Post-Chorus]</metaData>
+        <line>I wanna feel the oscillation of love</line>
+    </stanza>
+
+    <stanza type="verse" num="5">
+        <metaData>[Verse 2]</metaData>
+        <line>I try, I try, I try to clutch</line>
+        <line>To the memory of her aftertouch</line>
+    </stanza>
+
+    <stanza type="pre-chorus" num="6">
+        <metaData>[Pre-Chours]</metaData>
+        <line>Does not compute</line>
+        <line>Warning</line>
+        <line>System error</line>
+        <line>Warning</line>
+    </stanza>
+
+    <stanza type="chorus" num="7">
+        <metaData>[Chorus]</metaData>
+        <line>Synthesize her</line>
+        <line>Synthesize her</line>
+        <line>Synthesize her</line>
+        <line>Synthesize her</line>
+    </stanza>
+
+    <stanza type="post-chorus" num="8">
+        <metaData>[Post-Chorus]</metaData>
+        <line>I wanna feel her oscillation</line>
+    </stanza>
+
+    <stanza type="bridge" num="9">
+        <metaData>[Bridge]</metaData>
+        <line>
+            <vocals vType="spelling">S-Y-N-T-H-E-S-I-Z-E</vocals>
+        </line>
+        <line>Synthesize her</line>
+        <line>
+            <vocals vType="spelling">S-Y-N-T-H-E-S-I-Z-E</vocals>
+        </line>
+        <line>Synthesize her</line>
+        <line>Synthesis complete</line>
+    </stanza>
+
+    <stanza type="chorus" num="10">
+        <metaData>[Chorus]</metaData>
+        <line>Synthesize her</line>
+        <line>
+            <vocals vType="backing">(And I wanna feel it so bad)</vocals>
+        </line>
+        <line>Synthesize her</line>
+        <line>
+            <vocals vType="backing">(Ooh I wanna feel it, I wanna feel it, yeah yeah yeah)</vocals>
+        </line>
+        <line>Synthesize her</line>
+        <line>
+            <vocals vType="backing">(Please baby, please, just oscillate me, oscillate me baby,
+                yeah)</vocals>
+        </line>
+        <line>Synthesize her</line>
+        <line>
+            <vocals vType="backing">(I wanna feel her oscillation)</vocals>
+        </line>
+    </stanza>
+</root>

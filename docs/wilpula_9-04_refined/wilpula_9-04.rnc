@@ -1,0 +1,11 @@
+start = root
+root = element root {stanza+}
+
+    stanza = element stanza {type, num, metaData, line+}
+        type = attribute type {"verse" | "pre-chorus" | "chorus" | "post-chorus" | "bridge"}
+        num = attribute num {xsd:integer}
+    metaData = element metaData {text}
+    line = element line {vocals*, text}
+        vocals = element vocals {vType, text}
+            vType = attribute vType {"backing" | "spelling"}
+        
