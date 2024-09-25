@@ -1,0 +1,13 @@
+start = root
+root = element root {item, weight, stats, desc}
+    item = element item {text}
+    weight = element weight {num, text}
+        num = attribute num {text}
+    stats = element stats {column+}
+        column = element column {side, header, stat+}
+            side = attribute side {"left" | "right"}
+            header = element header {text}
+            stat = element stat {text, points}
+                points = element points {num, text}
+     desc = element desc {p+}
+        p = element p {text}
