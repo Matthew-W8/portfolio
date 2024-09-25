@@ -2,6 +2,7 @@
 <!-- This is a description of the Greathelm helm from Elden Ring -->
 <?xml-model href="wilpula_Greathelm.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
+    <Added date="2022-02-25">2022-02-25</Added>
     <item>Greathelm</item>
     <weight num="5.9">Weight 5.9</weight>
     <stats>
@@ -27,7 +28,7 @@
         </column>
     </stats>
     <desc>
-        <p>Sturdy greathelm made from iron.</p>
+        <p>Sturdy <itemName ref="item">greathelm</itemName> made from iron.</p>
         <p>Though it is uncomfortably heavy and obstructs the vision of the wearer, it provides
             considerable damage negation.</p>
     </desc>
