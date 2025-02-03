@@ -1,0 +1,39 @@
+\w+\s+\d+
+Weight 5
+*I was trying to get it to return any lines that contained a number.
+
+\w+\s+\d+\W+
+Weight 5.
+*I tried to fix it by adding non-alphabetical characters
+
+/d+
+(There was a lot so I feel it would be a waste to put here, but I can confirm it worked)
+*I wanted to make sure it was actually working. It was.
+
+VS(.+):
+VS Strike <points num="4.2">4.2</points></stat>
+VS Slash <points num="5.8">5.8</points></stat>
+VS Pierce <points num="5.2">5.2</points></stat>
+
+//points[contains(.,"4.")]
+*I didn't get this to return anything, but I thought it would return all <points> that contains a stat starting with 4.
+
+(Magic|Fire|Lightning|Holy)
+Magic
+Fire
+Lightning
+Holy
+
+^[starts-with(<!--)]
+<
+<
+<
+<
+<
+*I wanted to see if it would return comments (It does) but it only return the first "<".
+
+^[starts-with(<\W)]
+This returned the beginning every line because all sections after root are indented but the indent counts.
+
+*How would I write it so it would only return new lines starting with <!-- because it just seems to ignore the !--
+*Also, is there any way to write an exclusion with regular expressions. Say I had a nested tag, but only wanted the text. Is there anyway I could exclude anything inside a "<>" from returning?
