@@ -19,4 +19,9 @@ Also, I figured out what the problem is I just have no idea how to search for it
 so I don't know what to look up to search for the regular expression that would let me search for it and then just use that as a stop with
 (.+) to grab everything before it, then just work up from there moving along each xml mark.
 
-
+(<movie>)(.+?)\t
+    \1<title>\2</title>
+(<title>)(.+?)\t
+    \1<date>\2</date>
+(<date>)(.+?)\t
+    \1<location>\2</location>
