@@ -1,0 +1,11 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = root
+root = element xml {film+}
+
+film = element film {title, year, country, runtime}
+    title = element title {text}
+    year = element year {text}
+    country = element country {text}
+    runtime = element runtime {text}
+

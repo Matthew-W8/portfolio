@@ -1,0 +1,13 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = root
+root = element xml {header, movie+}
+
+header = element header {text}
+
+movie = element movie {title, date, country, runTime}
+    title = element title {text}
+    date = element date {xsd:integer}
+    country = element country {runTime?, text}
+    runTime = element runTime {unit?, text}
+        unit = attribute unit {"min"}
