@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+}
+
+div {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+div.white {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+div.black {
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+}
+h1 {
+    padding-left: 2%;
+}
+
+p {
+    padding-left: 3%;
+}

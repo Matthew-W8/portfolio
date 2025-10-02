@@ -1,17 +1,20 @@
 window.addEventListener('DOMContentLoaded',init,false);
             
+var switched = false;
 function init() {
-    alert('The page loaded!');
     var buttons = document.getElementsByTagName("button")
-    buttons[0].addEventListener('click',randomColor,false);
+    buttons[0].addEventListener('click', switchColors, false);
 }
 
-function randomColor() {
-    //var red = (math.random * 256);
-    //var blue = (math.random * 256);
-    //var green = (math.random * 256);
-    alert ('Function called');
-    //var colorChange = document.getElementById("colorToggle");
-    //{buttons[0].style.color = rgb(red, green, blue)}
-    //{buttonChange.style.background-color = "skyblue"}
+function switchColors() {
+    var divCollection = document.getElementsByTagName("div")
+        for (var i = 0; i < divCollection.length; i++) {
+        if (divCollection[i].className == "white") {
+            divCollection[i].classList.remove("white");
+            divCollection[i].classList.add("black");
+        } else if (divCollection[i].className == "black") {
+            divCollection[i].classList.remove("black");
+            divCollection[i].classList.add("white");
+        }
+ }
 }
